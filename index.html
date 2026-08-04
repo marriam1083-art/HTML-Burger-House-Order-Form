@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html Burger House Online Form</title>
+</head>
+<body style="padding:20px;">
+    <h1 align="center">BURGER HOUSE</h1>
+    <h2 align="center">ONLINE ORDER FORM</h2>
+    <form action="">
+        <table align="center" cellpadding="8">
+            <tr>
+                <td>* Full Name:</td>
+                <td><input type="text" required maxlength="20"></td>
+                <td>* Phone Number:</td>
+                <td><input type="tel" required maxlength="11"></td>
+            </tr>
+            <tr>
+                <td>* Address:</td>
+                <td><input type="text" required maxlength="30"></td>
+                <td>* Email:</td>
+                <td><input type="email" required></td>
+            </tr>
+            <tr>
+                <td>* City:</td>
+                <td><input type="text" required></td>
+                <td>* Postal Code:</td>
+                <td><input type="text" required maxlength="6"></td>
+            </tr>
+        </table>
+        <br>
+        <h3 align="center">* Required Fields</h3>
+        <br>
+        <table align="center" cellpadding="20">
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Burger Type</legend>
+                        <input type="radio" name="burger"> Zinger Burger <br>
+                        <input type="radio" name="burger"> Beef Burger <br>
+                        <input type="radio" name="burger"> Chicken Cheese Burger <br>
+                        <input type="radio" name="burger"> Double Patty Burger
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset>
+                        <legend>Burger Size</legend>
+                        <input type="radio" name="size"> Regular <br>
+                        <input type="radio" name="size"> Large <br>
+                        <input type="radio" name="size"> Jumbo
+
+                    </fieldset>
+                </td>
+                <td>
+                    <fieldset>
+                        <legend>Extra Add-ons</legend>
+                        <input type="checkbox"> Extra Cheese <br>
+                        <input type="checkbox"> French Fries <br>
+                        <input type="checkbox"> Soft Drink <br>
+                        <input type="checkbox"> Jalapeños <br>
+                        <input type="checkbox"> BBQ Sauce
+
+                   </fieldset>
+                </td>
+            </tr>
+        </table>
+        <br><br>
+        <table align="center" cellpadding="10">
+            <tr>
+                <td>Preferred Delivery Time:</td>
+                <td>
+                    <input type="time">
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">Special Instructions:</td>
+                <td>
+                    <textarea rows="5" cols="40"
+                        placeholder="Write your instructions here..."></textarea>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <div align="center">
+            <input type="submit" value="Submit Order">
+            <input type="reset" value="Reset Form">
+        </div>
+    </form>
+</body>
+</html>
